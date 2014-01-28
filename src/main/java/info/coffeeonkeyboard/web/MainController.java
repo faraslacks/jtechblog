@@ -15,25 +15,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class MainController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
-    String mapBlog()
-    {
-//        LatexParser parser = new LatexParser();
-//        String text =
-//                "\\section{Заголовок}\n" +
-//                "\\subsection{Подзаголовок}\n" +
-//                "\\subsubsection{Подподзаголовок}\n\n" +
-//                "Текст абзаца в который включена формула: $f(x) = 0$\n\n" +
-//                "\\subsubsection{Подподзаголовок 2}\n\n" +
-//                "Текст абзаца в который включена большая формула: $$f(x) = 0$$\n\n";
-//        text = parser.process(text);
-//        model.addAttribute("text", text);
-//        model.addAttribute("title", "Заголовок блога");
+    String mapBlog() {
         return "index";
     }
 
     @RequestMapping(value = "/admin", method = RequestMethod.GET)
-    String mapAdmin()
-    {
+    String mapAdmin() {
         return "admin";
     }
 

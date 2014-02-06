@@ -5,7 +5,7 @@
     <artifactId>jtechblog</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>blogapp Maven Webapp</name>
+    <name>jtechblog Maven Webapp</name>
     <url>http://maven.apache.org</url>
 
     <repositories>
@@ -76,6 +76,13 @@
             <version>1.5.8</version>
         </dependency>
 
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+
         <!-- Taglib -->
         <dependency>
             <groupId>taglibs</groupId>
@@ -91,7 +98,7 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>blogapp</finalName>
+        <finalName>jtechblog</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

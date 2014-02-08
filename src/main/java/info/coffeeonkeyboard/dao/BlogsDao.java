@@ -9,6 +9,7 @@ import info.coffeeonkeyboard.domain.Blog;
  */
 public interface BlogsDao {
 
+    public Blog createBlog(String name, String title, String epigraph);
     public Blog getBlog(String name);
 
 }

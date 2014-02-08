@@ -21,9 +21,4 @@ public class MainController {
         return "index";
     }
 
-    @RequestMapping(value = "/admin", method = RequestMethod.GET)
-    String mapAdmin() {
-        return "admin";
-    }
-
 }

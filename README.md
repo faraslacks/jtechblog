@@ -9,5 +9,4 @@ Java-based blog engine specialized for technical blogging. It uses Spring Framew
 * Tags statistics. It's possible to filter posts by tags. In development.
 * Smart fulltext search. In development.
 * MathJax formulas rendering. In development.
-* Inline editing posts via CKEditor. In development.
 * Graphs rendering. In development.

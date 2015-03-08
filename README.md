@@ -1,7 +1,7 @@
 jTechBlog
 =========
 
-Java-based blog engine specialized for technical blogging. It uses Spring Framework as a fundament and developed for [CoffeeOnKeyboard tech blog](http://coffeeonkeyboard.info).
+Java-based blog engine specialized for technical blogging. It uses Spring Framework as a fundament and developed for [CoffeeOnKeyboard tech blog](http://coffeeonkeyboard.info). Main goal of project is to bring platform for technical blogging which provides all tech-specific needs such as code highlighting, graphs and charts rendering etc. out of the box.
 
 # Common features
 * Posting and editing in several ways: web-based editor (browser), sending text files via email, uploading LaTeX files, git commit of changes (experimental feature). In development.
